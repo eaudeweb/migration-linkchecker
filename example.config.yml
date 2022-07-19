@@ -1,0 +1,9 @@
+config_version: 1
+urls:
+  prod: https://saicmknowledge.org
+  test: https://dev.saicmknowledge.edw.ro
+pages:
+  - / : 200
+  - /about/saicm : 200
+  - /test : 404
+  - /redirect : 301
