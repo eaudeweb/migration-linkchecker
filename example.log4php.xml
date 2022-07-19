@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="file-log" class="LoggerAppenderFile" threshold="all">
+        <layout class="LoggerLayoutSimple" />
+        <param name="file" value="statusReport.log" />
+        <param name="append" value="false" />
+    </appender>
+
+    <appender name="console-log" class="LoggerAppenderConsole" threshold="error"/>
+
+    <root>
+        <level value="debug" />
+        <appender_ref ref="file-log" />
+        <appender_ref ref="console-log" />
+    </root>
+</configuration>
