@@ -109,8 +109,8 @@ function checkUrls() {
                 $logger->info('OK status code for ' . $url);
             } else {
                 $exit_code = 1;
-                $logger->error('Wrong status code for ' . $url . ' expected '
-                    . $expected_http_code . ' got ' . $actual_http_code);
+                $logger->error('Expected  ' . $expected_http_code .
+                  ', got ' . $actual_http_code . ' for ' .  $url);
             }
         }
     }
