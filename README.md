@@ -3,7 +3,7 @@ Checks the status of pages in a staging environment against a predefined list of
 
 
 ### Prerequisites
-A .yml file - see _example.config.yml_ template 
+A config.yml file - see _example.config.yml_ template 
 
 ### Installation
 Run `composer install`
